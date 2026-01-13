@@ -1,0 +1,18 @@
+# Workflow konfiguration (Metadaten)
+name: Hello World
+description: Das ist nur ein Hello World Beispiel
+
+# Events
+on: push
+
+# Jobs
+jobs:
+    say-hello:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Daten ziehen
+              uses: actions/checkout@v4
+
+            - name: JavaScript ausführen
+              run: node ./src/hello-world.js
