@@ -1,0 +1,15 @@
+{
+  "name": "t-803-hello-github",
+  "version": "1.0.0",
+  "description": "Hello World HTTP API with random jokes",
+  "main": "src/hello-world.js",
+  "scripts": {
+    "start": "node src/hello-world.js"
+  },
+  "keywords": ["jokes", "api", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
