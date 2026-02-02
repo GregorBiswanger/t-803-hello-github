@@ -36,6 +36,6 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(`Get a random joke at http://localhost:${PORT}/api/jokes`);
+  console.log(`Server is running on port ${PORT}`);
+  console.log(`Get a random joke at /api/jokes`);
 });
